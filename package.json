@@ -1,0 +1,34 @@
+{
+  "name": "algino",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@2gis/mapgl": "^1.47.0",
+    "@googlemaps/react-wrapper": "^1.1.35",
+    "@pbe/react-yandex-maps": "^1.2.5",
+    "@vis.gl/react-google-maps": "^1.0.0",
+    "aos": "^2.3.4",
+    "hamburger-react": "^2.5.1",
+    "react": "^18.2.0",
+    "react-burger-menu": "^3.0.9",
+    "react-dom": "^18.2.0",
+    "sass": "^1.77.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "vite": "^5.2.0"
+  }
+}
